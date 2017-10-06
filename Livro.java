@@ -7,9 +7,7 @@
 /*
 ---------------------------------------------------------------------------------------------
 
-METODOS FUNCIONAM PARA ATRIBUTOS DE TAMANHO FIXO, E DEVEM SOFRER ALTERACAO CASO SEJA DECIDIDO MUDAR PARA TAMANHO VARIAVEL
-TAMBEM SUPOE-SE A ORDENACAO DO ARQUIVO APENAS PELO CODIGO DO LIVRO, TAMBEM DEVE SOFRER ALTERACOES CASO HAJA OUTRO TIPO DE ORDENACAO
-
+teste
 ---------------------------------------------------------------------------------------------
 
 
@@ -209,7 +207,7 @@ class Livro{
 			n = file.readInt();
 			do {
 				try{
-					i = file.getFilePointer();//armazena onde começa o objeto lido
+					i = file.getFilePointer();//armazena onde comeÃ§a o objeto lido
 					livro.readObject(file);
 					if(livro.getID() == codigo){
 						found = true;
